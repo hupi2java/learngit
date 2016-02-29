@@ -6,7 +6,7 @@ Git is free software.
 git add readme.txt
 git commit -m "wrote a readme file"
 git status
-git diff readme.txt
+git diff HEAD -- readme.txt
 
 要随时掌握工作区的状态，使用git status命令。
 
